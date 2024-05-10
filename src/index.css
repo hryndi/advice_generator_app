@@ -20,6 +20,9 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-optical-sizing: auto;
 }
 #root,
 body {
@@ -61,7 +64,6 @@ h6 {
 /*
   8. Create a root stacking context
 */
-#root,
-#__next {
+#root {
   isolation: isolate;
 }
